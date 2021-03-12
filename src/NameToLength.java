@@ -17,6 +17,6 @@ public class NameToLength
 				nameLength++;
 			}
 		}
-		System.out.println(nameLength++);
+		System.out.println("The name " + name + " contains " + nameLength++ + " letters");
 	}
 }
